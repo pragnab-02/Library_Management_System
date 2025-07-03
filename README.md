@@ -79,3 +79,45 @@ You can test all APIs using the `library-api.http` file in the root of this repo
 2. Hover over any API request.
 3. Click `Send Request`.
 4. View the response directly in the editor.
+
+---
+
+## Output for All API Endpoints
+   Below are screenshots of responses for all tested API endpoints using the REST Client extension in Visual Studio Code.
+   
+### 1. Adding a New Book
+
+![SS_1](https://github.com/user-attachments/assets/aac1e81f-88b6-4d0c-88fc-15ef061afa7c)
+
+### 2. Register a New User 
+
+![SS_2](https://github.com/user-attachments/assets/f5026578-e9ba-4c0d-ba9a-1543224ed142)
+
+### 3. Borrow a Book
+
+![SS_3](https://github.com/user-attachments/assets/be23ff21-c441-43b4-9096-82c17ddf1efc)
+
+### 4.Get All Books
+
+![Screenshot 2025-07-03 165945](https://github.com/user-attachments/assets/e604f1a2-b44f-4307-bfc2-f3ad24b8ade7)
+
+### 5.Return a Book
+
+![SS_4](https://github.com/user-attachments/assets/9d44b768-be8e-4d9a-b432-17c7fe033aa0)
+
+### 6.View Borrowing History
+
+![Screenshot 2025-07-03 170941](https://github.com/user-attachments/assets/952e5fd7-b09b-482a-9c8f-3a92ea1f25d3)
+
+### 7.Update a Book 
+
+![Screenshot 2025-07-03 174930](https://github.com/user-attachments/assets/2d5bd63b-d00e-4863-bb34-2d6387c5bc6c)
+
+### 8.Delete a Book
+
+![Screenshot 2025-07-03 172038](https://github.com/user-attachments/assets/48f88f87-39dc-44fa-b06c-a07fb03c2e88)
+
+
+
+
+
