@@ -1,0 +1,82 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 03 Jul 2025 10:22:05 GMT
+Connection: close
+
+{
+  "id": 1,
+  "user": {
+    "id": 1,
+    "firstName": "Pragna",
+    "lastName": "Bhukya"
+  },
+  "book": {
+    "id": 1,
+    "title": "Wings of Fire"
+  },
+  "borrowDate": "2025-07-03",
+  "returnDate": "2025-07-03",
+  "status": "RETURNED"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

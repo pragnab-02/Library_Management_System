@@ -1,0 +1,77 @@
+### Add a new book
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "title": "Wings of Fire",
+  "author": "A.P.J. Abdul Kalam",
+  "isbn": "9788173711466",
+  "publicationYear": 1999,
+  "totalCopies": 4,
+  "availableCopies": 4
+}
+
+### Register a new user
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "firstName": "Pragna",
+  "lastName": "Bhukya",
+  "email": "Pragna123@gmail.com",
+  "phoneNumber": "9123456789"
+}
+
+### Borrow a book
+POST http://localhost:8080/api/borrow?userId=1&bookId=1
+
+
+### Add Book 2
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "title": "The Alchemist",
+  "author": "Paulo Coelho",
+  "isbn": "9780061122415",
+  "publicationYear": 1988,
+  "totalCopies": 5,
+  "availableCopies": 5
+}
+
+### Register User 2
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "firstName": "Bindhu",
+  "lastName": "Bhukya",
+  "email": "bindhu123@gmail.com",
+  "phoneNumber": "9876543210"
+}
+
+
+### Get all books
+GET http://localhost:8080/api/books
+
+### Return a book
+POST http://localhost:8080/api/return/1?userId=1
+
+### View borrowing history
+GET http://localhost:8080/api/users/1/borrowing
+
+### Update a Book
+PUT http://localhost:8080/api/books/1
+Content-Type: application/json
+
+{
+  "title": "Wings of Fire - Updated Edition",
+  "author": "A.P.J. Abdul Kalam",
+  "isbn": "9788173711466",
+  "publicationYear": 2005,
+  "totalCopies": 5,
+  "availableCopies": 4
+}
+
+### Delete a Book
+DELETE http://localhost:8080/api/books/1
