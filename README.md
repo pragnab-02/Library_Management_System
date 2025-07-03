@@ -50,7 +50,8 @@ You can test all API endpoints directly within **VS Code** using the **REST Clie
    - Each request in the file has a `###` separator
    - Hover over any request and click `Send Request`
    - You'll see the JSON response right inside VS Code
-
+   
+----
 
 ## API Endpoints
 
