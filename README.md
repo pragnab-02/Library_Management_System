@@ -69,7 +69,7 @@ The following RESTful APIs are available for managing books, users, and borrowin
 
 ---
 
-### 🧪 API Testing with REST Client in VS Code
+### API Testing with REST Client in VS Code
 
 You can test all APIs using the `library-api.http` file in the root of this repository.
 
